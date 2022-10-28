@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(90deg,rgb(189, 142, 142) , rgb(147, 153, 118));    
+}
+
+.container{
+    text-align: center;
+    margin-top:-19px
+}
+
+h1{
+    font-size: 43px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px 3px #1c5572;
+    font-style: italic;
+
+}
+
+.calculator{ 
+    border: 3px solid #3a3636;
+    background-color: #645555;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 6px 0px 9px rgba(0, 0, 0, .6), -5px 0px 6px rgba(0, 0, 0, .6);
+
+    
+}
+
+
+input{
+    border-radius: 3px;
+    border: 1px solid #417dcc;
+    font-size:40px;
+    font-weight: 500;
+    height: 60px;
+    width: 600px;
+    margin-bottom: 10px;
+    color: rgb(37, 64, 95);
+}
+
+button{
+    border-radius: 8px;
+    font-size: 38px;
+    background: #7a767e;
+    width: 143px;
+    height: 70px;
+    margin: 4px;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, .2), -3px 0px 3px rgba(0, 0, 0, .2);
+
+}
+
+
+
